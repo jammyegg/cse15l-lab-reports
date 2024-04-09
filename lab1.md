@@ -7,6 +7,6 @@
 2b. An example of using the ls command with a path to a directory as an argument would be if the current path is /home/lecture1, then ls messages/ would list the files within messages, such as en-us.txt, es-mx.txt, fr.txt, and zh-cn.txt.  
 2c. An example of using the cat command with a path to a directory as an argument would be if the current path is /home/lecture1, then cat messages/ would print an error message stating that messages/ is a directory.  
 
-3a. An example of using the cd command with a path to a file as an argument would be if the current path is /home/lecture1, then cd fr.txt would print an error message
-3b.
+3a. An example of using the cd command with a path to a file as an argument would be if the current path is /home/lecture1, then cd fr.txt would print an error message stating that fr.txt does not exist as a file or directory.  
+3b. An example of using the ls command with a path to a file as an argument would be if the current path is /home/lecture1, then ls fr.txt would 
 3c.
