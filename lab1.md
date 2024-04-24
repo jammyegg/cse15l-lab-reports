@@ -31,6 +31,6 @@ The absolute path to the working directory before the command was run was ```/c/
 ![Image](3b.png)  
 The absolute path to the working directory before the command was run was ```/c/Users/jammy/lecture1/messages```. We got this output because the file provided is the only file that exists in the ```messages``` directory and therefore the command was able to output its file name. This output is not an error.  
 
-3c. An example of using the ```cat``` command with a path to a file as an argument would be if the current path is ```/home/lecture1/messages```, then ```cat fr.txt``` would print the contents within the file, ```"Bonjour le monde."```  
+3c. An example of using the ```cat``` command with a path to a file as an argument would be if the current path is ```/home/lecture1/messages```, then ```cat fr.txt``` would print the contents within the file, ```"Bonjour le monde"```.  
 ![Image](3c.png)  
 The absolute path to the working directory before the command was run was ```/c/Users/jammy/lecture1/messages```. We got this output because the file given has contents inside, which could be printed out. This output is not an error.
