@@ -24,11 +24,11 @@ The absolute path to the working directory before the command was run was ```/c/
 The absolute path to the working directory before the command was run was ```/c/Users/jammy/lecture1```. We got this output because the command is used to print contents within files and not directories like ```messages```. Instead, the ```messages``` directory is a folder with txt files that have contents inside them. This is an error because the system printed out a message that describes the given argument rather than printing out contents as expected.  
 
 3a. An example of using the ```cd``` command with a path to a file as an argument would be if the current path is ```/home/lecture1```, then ```cd Hello.java``` would print an error message stating that ```Hello.java``` is not a directory.  
-  
+![Image](3a.png)  
 The absolute path to the working directory before the command was run was ```/c/Users/jammy/lecture1```. We got this output because despite ```Hello.java``` being an existing file in the current working directory ```lecture1```, the system responds with the above error message as it is not a directory. The command is then unable to change into the path. This is an error because the system printed out a message that describes the result of incorrect usage of the command.  
 
 3b. An example of using the ```ls``` command with a path to a file as an argument would be if the current path is ```/home/lecture1/messages```, then ```ls fr.txt``` would return the existing file name ```fr.txt```.  
-  
+![Image](3b.png)  
 The absolute path to the working directory before the command was run was ```/c/Users/jammy/lecture1/messages```. We got this output because the file provided is the only file that exists in the ```messages``` directory and therefore the command was able to output its file name. This output is not an error.  
 
 3c. An example of using the ```cat``` command with a path to a file as an argument would be if the current path is ```/home/lecture1/messages```, then ```cat fr.txt``` would print the contents within the file, ```"Bonjour le monde"```.  
