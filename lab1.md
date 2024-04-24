@@ -1,5 +1,5 @@
 ## Lab Report 1
-1a. The cd command is used to switch the current working directory to the given path. Using this command with no arguments exits the current directory to the parent directory. For example, the absolute path could be /home/lecture1 and the cd command with no arguments brings the user to /home.  
+1a. The cd command is used to switch the current working directory to the given path. Using this command with no arguments exits the current directory to the parent directory. For example, the absolute path could be ```/home/lecture1``` and the cd command with no arguments brings the user to ```/home```.  
 ![Image](1a.png)  
 The absolute path to the working directory before the command was run was /c/Users/jammy/lecture1. We got this output because having no arguments for this command means that it will change to the home directory by default.  
 
