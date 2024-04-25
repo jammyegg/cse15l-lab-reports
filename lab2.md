@@ -14,7 +14,7 @@
 # Part 2  
 1. ![Image](privateKey.png)
 2. ![Image](publicKey.png)
-3. ![Image](terminalInteraction)
+3. ![Image](terminalInteraction.png)
 
 # Part 3  
 1. Something I learned from lab in week 3 that I didn't know before was being able to generate a secure password that could be copied into a remote server so that I could access the server without having to manually type in my actual password every time I log in. I was surprised by how efficient it was, although I am still confused about the purpose of the key's randomart image is and whether that could be used as a password as well.
