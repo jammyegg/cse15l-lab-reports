@@ -12,3 +12,9 @@
 2c. The value of ```str``` changed with this specific request when the ```url``` was checked for ```/add-message```, which goes through the same steps as the previous request with the splitting. The arrays were used to create a string in the next line that the previous request was able to set up with ```"\n"```, which could be appended to ```str```. The updated ```str``` will have the messages ```jpolitz: Hello``` and ```yesh: How are you``` in separate lines with the latter after the former.  
   
 # Part 2  
+1. ![Image](privateKey.png)
+2. ![Image](publicKey.png)
+3. ![Image](terminalInteraction)
+
+# Part 3  
+1. Something I learned from lab in week 3 that I didn't know before was being able to generate a secure password that could be copied into a remote server so that I could access the server without having to manually type in my actual password every time I log in. I was surprised by how efficient it was, although I am still confused about the purpose of the key's randomart image is and whether that could be used as a password as well.
