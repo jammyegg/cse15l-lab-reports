@@ -42,7 +42,7 @@
 5. The bug in the code prior to the change was that the for loop was not actively updating ``newArray``, and instead was trying to update the original array ``arr`` with content from ``newArray``. However, ``newArray`` has no content as it is a newly created array with the same length as the original array and as a result, the overall program returns ``arr`` with no changes made. The fix addresses this issue because indices of the ``newArray`` are being updated with contents of each current index from ``arr`` and the overall program returns ``newArray`` with the new changes.
 
 # Part 2  
-1. One interesting command-line option to use ``grep`` is ``-c``, which prints count of lines with matching criteria.
+1. One interesting command-line option to use ``grep`` is ``-c``, which prints count of lines with matching criteria.  
    Example 1:
    ```
    //command
@@ -78,10 +78,10 @@
    week5-demo/docsearch/technical/911report/chapter-9.txt:3
    week5-demo/docsearch/technical/911report/preface.txt:0
    ```
-   In this example, the command is used concurrently with ``-r``, which is a command-line option that searches recursively through a directory path, in this case, it scans through ``911report`` for ``"planes"`` and returns the amount of lines that contain this string for each text file in the directory. This is useful because it could check for keywords spanning across multiple files in a directory and count the amount of lines using them per file with ease.
+   In this example, the command is used concurrently with ``-r``, which is a command-line option that searches recursively through a directory path, in this case, it scans through ``911report`` for ``"planes"`` and returns the amount of lines that contain this string for each text file in the directory. This is useful because it could check for keywords spanning across multiple files in a directory and count the amount of lines using them per file with ease.  
    Source: https://docs.rackspace.com/docs/use-the-linux-grep-command
      
-2. Another interesting alternate way of using ``grep`` is ``-v``, which prints lines not matching criteria.
+2. Another interesting alternate way of using ``grep`` is ``-v``, which prints lines not matching criteria.  
    Example 1:
    ```
    //command
@@ -137,7 +137,7 @@
         CESD Center for Epidemiologic Studies Depression
         poor?
    ```
-   In this example, the command is used to search through a text file in ``biomed`` and print lines that do not contain the string ``a``, which explains the sporadic gaps between lines as it excludes those containing the string. This is useful because it could be used to concentrate on lines without certain buzzwords.
+   In this example, the command is used to search through a text file in ``biomed`` and print lines that do not contain the string ``a``, which explains the sporadic gaps between lines as it excludes those containing the string. This is useful because it could be used to concentrate on lines without certain buzzwords.  
    Source: https://docs.rackspace.com/docs/use-the-linux-grep-command
 
    Example 2:
@@ -203,10 +203,10 @@
 
         unit.
    ```
-   In this example, the command is used concurrently with ``-i``, which is a command-line option that prints lines with matching criteria while ignoring upper or lower casing, so the text file was scanned through for ``a`` and excluded those lines that contain it whether or not the string is upper or lower case when printing the output. This is useful because the range of the search was expanded with ``-i``, making the exclusion more inclusive and the searched lines more specific.
+   In this example, the command is used concurrently with ``-i``, which is a command-line option that prints lines with matching criteria while ignoring upper or lower casing, so the text file was scanned through for ``a`` and excluded those lines that contain it whether or not the string is upper or lower case when printing the output. This is useful because the range of the search was expanded with ``-i``, making the exclusion more inclusive and the searched lines more specific.  
    Source: https://docs.rackspace.com/docs/use-the-linux-grep-command
 
-3. A third interesting command-line option to use ``grep`` is ``-i``, which prints lines with matching criteria while ignoring upper or lower casing.
+3. A third interesting command-line option to use ``grep`` is ``-i``, which prints lines with matching criteria while ignoring upper or lower casing.  
    Example 1:
    ```
    //command
@@ -252,7 +252,7 @@
    66. Peters J, Brooker C, McCabe C, Short N. Problems
    problems in patients attending an accident and emergency
    ```
-   In this example, the command is used to search through ``Session2-PDF.txt`` in the subdirectory ``Alcohol_Problems`` under ``government`` for the string ``problems``, ignoring variations of upper and lower casings, and printing out lines containing this string. This is useful because it makes the search more broad and concise to the lines we want with the string.
+   In this example, the command is used to search through ``Session2-PDF.txt`` in the subdirectory ``Alcohol_Problems`` under ``government`` for the string ``problems``, ignoring variations of upper and lower casings, and printing out lines containing this string. This is useful because it makes the search more broad and concise to the lines we want with the string.  
    Source: https://docs.rackspace.com/docs/use-the-linux-grep-command  
 
    Example 2:
@@ -263,10 +263,10 @@
    //output
    38
    ```
-   In this example, the command is being used concurrently with ``-c``, which prints count of lines matching the given criteria, so not only is the text file being scanned for the keyword ``problems``, but the lines containing the string are being counted. This is useful because it counts how many lines use the keyword through a broader scope.
+   In this example, the command is being used concurrently with ``-c``, which prints count of lines matching the given criteria, so not only is the text file being scanned for the keyword ``problems``, but the lines containing the string are being counted. This is useful because it counts how many lines use the keyword through a broader scope.  
    Source: https://docs.rackspace.com/docs/use-the-linux-grep-command
      
-5. Lastly, another interesting alternate way of using ``grep`` is ``-A n``, which prints n lines after matches.
+4. Lastly, another interesting alternate way of using ``grep`` is ``-A n``, which prints n lines after matches.  
    Example 1:
    ```
    //command
@@ -288,7 +288,7 @@
    significantly resistant, phage enzymes could buy researchers decades for inventing other
    approaches.
    ```
-   In this example, the command is used to print 2 lines after matching with the string ``could`` in the text file ``journal.pbio.0020053.txt`` under the ``plos`` directory. This is useful because it gives a little more context to how the string was used in the current line that was searched for.
+   In this example, the command is used to print 2 lines after matching with the string ``could`` in the text file ``journal.pbio.0020053.txt`` under the ``plos`` directory. This is useful because it gives a little more context to how the string was used in the current line that was searched for.  
    Source: https://docs.rackspace.com/docs/use-the-linux-grep-command  
   
    Example 2:
@@ -299,5 +299,5 @@
    //output
    4
    ```
-   In this example, the command is used concurrently with ``-c``, which prints count of lines with matching criteria, so the text file was searched for the given string and prints the lines that contain that string. This is useful because it narrows down the specific lines with the string.
+   In this example, the command is used concurrently with ``-c``, which prints count of lines with matching criteria, so the text file was searched for the given string and prints the lines that contain that string. This is useful because it narrows down the specific lines with the string.  
    Source: https://docs.rackspace.com/docs/use-the-linux-grep-command
