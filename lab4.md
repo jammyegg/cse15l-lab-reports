@@ -1,3 +1,4 @@
+# Lab Report 4
 1. Keys pressed: ``ssh jal050@ieng6.ucsd.edu <enter>``. This command logs us into the ieng6 server.  
    ![Image](Step1.png) ![Image](Step1.2.png)  
 2. Keys pressed: ``git clone git@github.com:jammyegg/lab7.git <enter>``. This command clones our fork of the repository from our Github account using the SSH URL.  
